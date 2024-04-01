@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation (Beginner)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <div class="input-container">
+          <input
+            type="text"
+            class="username"
+            placeholder="Name"
+            id="username"
+          />
+          <p class="user-msg msg">error message</p>
+        </div>
+        <div class="input-container">
+          <input
+            type="email"
+            class="email"
+            placeholder="Email Address"
+            id="email"
+          />
+          <p class="email-msg msg">error message</p>
+        </div>
+        <div class="input-container">
+          <input
+            type="password"
+            class="password1"
+            placeholder="Password"
+            id="password1"
+          />
+          <p class="password1-msg msg">error message</p>
+        </div>
+        <div class="input-container">
+          <input
+            type="password"
+            class="password2"
+            placeholder="Confirm Password"
+            id="password2"
+          />
+          <p class="password2-msg msg">error message</p>
+        </div>
+
+        <input type="submit" value="Submit" class="submit" />
+        <p class="already">Already have an account? <a href="#">Login</a></p>
+      </form>
+
+      <!-- image / content -->
+      <div class="content">
+        <img
+          src="https://cdn.pixabay.com/photo/2020/05/03/19/09/nike-5126389_1280.jpg"
+        />
+        <h1>Shoes <br />Palace</h1>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
